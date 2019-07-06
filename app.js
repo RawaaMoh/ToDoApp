@@ -18,19 +18,28 @@ function list() {
 }
 
 function newItem(item) {
+    let arr = [];
     for (let i = 0; i < arr.length; i++) {
-arr.push();
+        arr.push();
+        arr = [] + item;
     }
 }
 
 function listItem(item) {
-    for (let i = 0; i < arr.length; i++) { }
+    let arr = [];
+    for (let i = 0; i < arr.length; i++) {
+
+     }
 }
 
 function deleteItem(item) {
-    for (let i = 0; i < arr.length; i++) { }
+    for (let i = 0; i < arr.length; i++) { 
+arr.
+    }
 }
 
 function quitApp(item) {
-    for (let i = 0; i < arr.length; i++) { }
+    for (let i = 0; i < arr.length; i++) {
+
+     }
 }
