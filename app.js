@@ -1,5 +1,7 @@
 let smthn = prompt("what do u want from the list?");
 
+let todoItems = [];
+
 function list() {
     for (let i = 0; i < arr.length; i++) {
         if (smthn == "new") {
@@ -17,29 +19,33 @@ function list() {
     }
 }
 
-function newItem(item) {
-    let arr = [];
-    for (let i = 0; i < arr.length; i++) {
-        arr.push();
-        arr = [] + item;
-    }
+function newItem(text) {
+    const todo = {
+        text,
+        checked: false,
+        id: Date.now(),
+    };
+
+    todoItems.push(todo);
+    console.log(todoItems);
 }
+
 
 function listItem(item) {
     let arr = [];
     for (let i = 0; i < arr.length; i++) {
 
-     }
+    }
 }
 
 function deleteItem(item) {
-    for (let i = 0; i < arr.length; i++) { 
-arr.
+    for (let i = 0; i < arr.length; i++) {
+        
     }
 }
 
 function quitApp(item) {
     for (let i = 0; i < arr.length; i++) {
 
-     }
+    }
 }
