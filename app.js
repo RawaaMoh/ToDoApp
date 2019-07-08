@@ -2,63 +2,62 @@ let option = prompt("what do u want from the list?");
 
 let todoItems = [];
 
-const text = input.value.trim();
+const text = " ";
+
 if (text !== '') {
-  addTodo(text);
-  input.value = '';
-  input.focus();
-}
 
-// function list() {
+  // function list() {
 
-// for (let i = 0; i < arr.length; i++) {
+  // for (let i = 0; i < arr.length; i++) {
 
-if (option == "new") {
+  if (option == "new") {
 
-  function addTodo(text) {
-    const todo = {
-      text,
-      checked: false,
-    };
+    function addTodo(text) {
+      const todo = {
+        text,
+        // checked: false,
+      };
 
-    todoItems.push(todo);
-
-  }
-
-} //new
-
-else if (option == "list") {
-
-  function listItem(text) {
-
-    for (let i = 0; i < todoItems.length; i++) {
+      todoItems.push(todo);
 
     }
-  }
 
-}//list
+  } //new
 
-else if (option == "delete") {
+  else if (option == "list") {
 
-  function deleteItem(text) {
-    for (let i = 0; i < todoItems.length; i++) {
+    function listItem(text) {
 
+      for (let i = 0; i < todoItems.length; i++) {
+        text = todoItems;
+
+      }
     }
-  }
 
-} //delete
+  }//list
 
-else if (option == "quit") {
+  else if (option == "delete") {
 
-  function quitApp(text) {
-    for (let i = 0; i < todoItems.length; i++) {
+    function deleteItem(text) {
+      for (let i = 0; i < todoItems.length; i++) {
 
+      }
     }
-  }
 
-} //quit
+  } //delete
 
-// } //for(i) loop
+  else if (option == "quit") {
 
-// } //list function
+    function quitApp(text) {
+      for (let i = 0; i < todoItems.length; i++) {
 
+      }
+    }
+
+  } //quit
+
+  // } //for(i) loop
+
+  // } //list function
+
+} // text condition  
